@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ParticipantList /> renders this UI as expected 1`] = `
+<div
+  className="participants"
+>
+  <ul
+    className="participants-list"
+  >
+    <li>
+      <div
+        className="participant"
+      >
+        <img
+          alt="person avatar"
+          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+        />
+        <h2
+          className="name"
+        >
+          Koren Templeton
+        </h2>
+        <p
+          className="onStage"
+        >
+          On Stage
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        className="participant"
+      >
+        <img
+          alt="person avatar"
+          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+        />
+        <h2
+          className="name"
+        >
+          Caty Flucker
+        </h2>
+        <p
+          className="onStage"
+        >
+          In Session
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        className="participant"
+      >
+        <img
+          alt="person avatar"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+        <h2
+          className="name"
+        >
+          Axe Kubicka
+        </h2>
+        <p
+          className="onStage"
+        >
+          In Session
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        className="participant"
+      >
+        <img
+          alt="person avatar"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+        <h2
+          className="name"
+        >
+          Frank Runciman
+        </h2>
+        <p
+          className="onStage"
+        >
+          In Session
+        </p>
+      </div>
+    </li>
+    <li>
+      <div
+        className="participant"
+      >
+        <img
+          alt="person avatar"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+        <h2
+          className="name"
+        >
+          Ashla Attwool
+        </h2>
+        <p
+          className="onStage"
+        >
+          On Stage
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

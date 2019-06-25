@@ -1,12 +1,7 @@
 import React from 'react';
-import Participant from './participant';
+import StageParticipant from './StageParticipant';
 
-
-
-
-function ParticipantList() {
-
-
+function Stage() {
   const participants = [
     {
         id: 1,
@@ -47,18 +42,19 @@ function ParticipantList() {
         inSession: true,
         onStage: true
     }
-  ];
-  let participantList = participants.map(person => <li key={person.id}><Participant  person={person}/></li>);
-
-  return (
-    <div className="participants">
-      <ul className="participants-list">
-        {participantList}
-      </ul>
-    </div>
-  );
+];
+let onStageParticipants = participants.filter(person => person.onStage === true);
+//console.log(onStageParticipants);
+let onStageParticipantList = onStageParticipants.map(person => <StageParticipant key={person.id} person={person} />);
 
 
+return (
+  <section className="stage">
+    {onStageParticipantList}
+  </section>
+
+);
 
 }
-export default ParticipantList;
+
+export default Stage;
